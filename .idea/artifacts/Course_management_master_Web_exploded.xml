@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Course-management-master:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Course_management_master_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Course-management-master/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Course-management-master" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files (1)/protobuf-java-3.19.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files (1)/mysql-connector-java-8.0.30.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jakarta.servlet-api-6.0.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
